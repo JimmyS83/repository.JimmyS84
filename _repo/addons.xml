@@ -23,6 +23,21 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
   </extension>
 </addon>
 
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.0.7" provider-name="Petr Čermák, Štěpán Ort">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Aktuálně.cz</summary>
+	<description>Plugin to play videos from Aktualne.cz</description>
+    <description lang="cs">Aktuálně.cz - kompletní zpravodajství, zprávy z domova i ze světa</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.dokumenty.tv" version="1.0.0" name="Dokumenty.tv" provider-name="cache-sk">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
