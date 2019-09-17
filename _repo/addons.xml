@@ -23,7 +23,7 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.2" provider-name="Petr Čermák, Štěpán Ort, lama18">
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.3" provider-name="Petr Čermák, Štěpán Ort, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
