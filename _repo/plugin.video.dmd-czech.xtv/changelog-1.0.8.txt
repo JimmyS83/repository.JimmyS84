@@ -1,0 +1,26 @@
+v1.0.8 (2019-09-18)
+- small bugs
+
+v 1.0.7 (2019-09-18)
+- small improvements
+
+v1.0.6 (2019-09-13)
+- adaptive stream
+- cover image
+
+v1.0.4 (2019-09-12)
+- better way to play
+
+v1.0.3 (2019-09-03)
+- ability to mark watched
+- release date as info label
+
+v1.0.2 (2019-09-02)
+- only active are showed
+- adaptive HD vs Full HD stream
+
+v1.0.1 (2019-09-01)
+- clean code
+
+v1.0.0 (2019-09-01)
+- first release
