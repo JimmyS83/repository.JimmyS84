@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="metadata.csfd"
-       name="ČSFD.cz"
+       name="ÄŚSFD.cz"
         version="3.6"
        provider-name="Jirka">
   <requires>
@@ -13,17 +13,17 @@
              language="cs"
              library="csfd.xml"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">ČSFD Movie Scraper</summary>
-    <summary lang="cs">ČSFD Stahovač</summary>
+    <summary lang="en">ÄŚSFD Movie Scraper</summary>
+    <summary lang="cs">ÄŚSFD StahovaÄŤ</summary>
     <description lang="en">Download Movie information from www.csfd.cz (czech-slovak movie database) / combined with www.imdb.com</description>
-    <description lang="cs">Stahuje informace o filmech z ČSFD.cz (kombinovaně s IMDB.com).
-Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (včetně náhledu) z imdb.com
+    <description lang="cs">Stahuje informace o filmech z ÄŚSFD.cz (kombinovanÄ› s IMDB.com).
+NĂˇzev filmu, obsah a hodnocenĂ­ jsou staĹľeny z csfd.cz, ostatnĂ­ informace (vÄŤetnÄ› nĂˇhledu) z imdb.com
 </description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.3" provider-name="Petr Čermák, Štěpán Ort, wombat">
+<addon id="plugin.video.dmd-czech.aktualne" name="AktuĂˇlnÄ›.cz" version="2.1.3" provider-name="Petr ÄŚermĂˇk, Ĺ tÄ›pĂˇn Ort, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -31,9 +31,9 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Aktuálně.cz</summary>
+    <summary>AktuĂˇlnÄ›.cz</summary>
 	<description>Plugin to play videos from Aktualne.cz</description>
-    <description lang="cs">Aktuálně.cz - kompletní zpravodajství, zprávy z domova i ze světa</description>
+    <description lang="cs">AktuĂˇlnÄ›.cz - kompletnĂ­ zpravodajstvĂ­, zprĂˇvy z domova i ze svÄ›ta</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -52,7 +52,7 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
     <platform>all</platform>
     <summary>Stream | TelevizeSeznam.cz</summary>
     <description>
-        Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
+        PĹ™inĂˇĹˇĂ­me originĂˇlnĂ­ poĹ™ady a seriĂˇly z vlastnĂ­ produkce. Bavte se s nĂˇmi. Kdykoliv a odkudkoliv.
     </description>
     <source>https://github.com/lama18/plugin.video.dmd-czech.stream</source>
   </extension>
@@ -72,9 +72,9 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>XTV.cz - Nezávislá internetová televize</summary>
+    <summary>XTV.cz - NezĂˇvislĂˇ internetovĂˇ televize</summary>
     <description>
-       XTV je nezávislá internetová televize, která má ambici přinášet svým divákům rozhovory s osobnostmi českého veřejného života – jejich postoje, názory, stanoviska, argumenty i aktuální komentáře přímo do jejich počítačů či mobilních zařízení.
+       XTV je nezĂˇvislĂˇ internetovĂˇ televize, kterĂˇ mĂˇ ambici pĹ™inĂˇĹˇet svĂ˝m divĂˇkĹŻm rozhovory s osobnostmi ÄŤeskĂ©ho veĹ™ejnĂ©ho Ĺľivota â€“ jejich postoje, nĂˇzory, stanoviska, argumenty i aktuĂˇlnĂ­ komentĂˇĹ™e pĹ™Ă­mo do jejich poÄŤĂ­taÄŤĹŻ ÄŤi mobilnĂ­ch zaĹ™Ă­zenĂ­.
     </description>
     <source>https://github.com/lama18/plugin.video.dmd-czech.xtv</source>
   </extension>
@@ -94,8 +94,8 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Dokumenty.tv</summary>
         <description lang="en">Documentary videos from Dokumenty.tv page</description>
-        <description lang="sk">Dokumentárne videá zo stránky Dokumenty.tv</description>
-        <description lang="cs">Dokumentární videa ze stránky Dokumenty.tv</description>
+        <description lang="sk">DokumentĂˇrne videĂˇ zo strĂˇnky Dokumenty.tv</description>
+        <description lang="cs">DokumentĂˇrnĂ­ videa ze strĂˇnky Dokumenty.tv</description>
         <news>
 [B]0.0.4[/B]
 - added to repository
@@ -115,7 +115,7 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
 <addon id="plugin.video.infocz"
 version="0.0.4"
 name="Info.Cz Kodi Video Plugin"
-provider-name="Petr Čermák">
+provider-name="Petr ÄŚermĂˇk">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
   <import addon="script.module.dmd-czech.common" version="1.5.5"/>
@@ -128,7 +128,7 @@ provider-name="Petr Čermák">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">INFO.cz</summary>
   <description>Video plugin for Czech news server info.cz.</description>
-  <description lang="cs">Doplněk pro přehrávání videí z českého zpravodajského webu info.cz.</description>
+  <description lang="cs">DoplnÄ›k pro pĹ™ehrĂˇvĂˇnĂ­ videĂ­ z ÄŤeskĂ©ho zpravodajskĂ©ho webu info.cz.</description>
   <assets>
     <icon>resources\info-logo.jpg</icon>
     <fanart>resources\strunc.jpg</fanart>
@@ -162,10 +162,10 @@ provider-name="Petr Čermák">
         Plugin to play Mall.TV
     </description>
     <description lang="cs">
-        Plugin pro přehrávání Mall.TV
+        Plugin pro pĹ™ehrĂˇvĂˇnĂ­ Mall.TV
     </description>
     <description lang="sk">
-        Plugin na prehrávanie Mall.TV
+        Plugin na prehrĂˇvanie Mall.TV
     </description>
     <source>https://github.com/koudi/plugin.video.mall.tv</source>
   </extension>
@@ -182,7 +182,7 @@ provider-name="Petr Čermák">
   <extension point="xbmc.addon.metadata">
     <summary>iPrima</summary>
 	<description>Plugin to play videos from iPrima archive</description>
-    <description lang="cs">Plugin nabízí přístup do archivu iPrima.</description>
+    <description lang="cs">Plugin nabĂ­zĂ­ pĹ™Ă­stup do archivu iPrima.</description>
     <platform>all</platform>
     <source>https://github.com/alladdin/plugin.video.primaplay</source>
   </extension>
@@ -223,7 +223,7 @@ provider-name="Petr Čermák">
     <platform>all</platform>
     <summary>TelevizeSeznam.cz</summary>
     <description>
-        Internetová televize TelevizeSeznam.cz plná desítek originálních pořadů, videí seriálů, které si pustíte, kdy chcete vy Online a offline v aplikaci.
+        InternetovĂˇ televize TelevizeSeznam.cz plnĂˇ desĂ­tek originĂˇlnĂ­ch poĹ™adĹŻ, videĂ­ seriĂˇlĹŻ, kterĂ© si pustĂ­te, kdy chcete vy Online a offline v aplikaci.
     </description>
     <source>https://github.com/lama18/plugin.video.televizeseznam.cz</source>
   </extension>
@@ -270,7 +270,7 @@ provider-name="Petr Čermák">
 </addon>
 
 <addon id="repository.xbmc-kodi.cz"
-        name="XBMC-Kodi CZ/SK repozitář"
+        name="XBMC-Kodi CZ/SK repozitĂˇĹ™"
         version="1.0.0"
         provider-name="XBMC-Kodi.cz">
 
@@ -283,8 +283,8 @@ provider-name="Petr Čermák">
 
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
-        <description>Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
+        <summary>ÄŚesko-slovenskĂˇ komunita fanouĹˇkĹŻ XBMC/Kodi</summary>
+        <description>RepozitĂˇĹ™ pro ÄŤesko-slovenskou komunitu fanouĹˇkĹŻ XBMC/Kodi</description>
     </extension>
 </addon>
 
@@ -316,9 +316,9 @@ provider-name="Petr Čermák">
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<summary lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+		<description lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj prikljuÄŤaka za video dodatke koji zahtjevaju viĹˇestruke video izvore.</description>
 	</extension>
 </addon>
 
@@ -336,9 +336,9 @@ provider-name="Petr Čermák">
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<summary lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+		<description lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj prikljuÄŤaka za video dodatke koji zahtjevaju viĹˇestruke video izvore.</description>
 		<forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
 	</extension>
@@ -418,7 +418,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="skin.confluence2" version="4.6.11" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, Jimmy">
+<addon id="skin.confluence2" version="4.7.1" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="service.skin.widgets" version="0.0.32"/>
@@ -446,7 +446,7 @@ v5.2.14 (2017-01-23)
 		<summary lang="es_MX">Skin confluende por Jezz_X. (skin por defecto de Kodi)</summary>
 		<summary lang="et_EE">Confluence rüü autorilt Jezz_X.</summary>
 		<summary lang="eu_ES">Confluence azala Jezz_X-ek egina.</summary>
-		<summary lang="fa_IR">پوسته Confluence تهیه شده بوسیله Jezz_X. (پوسته پیش فرض Kodi) </summary>
+		<summary lang="fa_IR">پوسته Confluence تهیه شده بوسیله Jezz_X.</summary>
 		<summary lang="fi_FI">Confluence-ulkoasu. Tekijä Jezz_X.</summary>
 		<summary lang="fo_FO">Confluence útsjónd av Jezz_X. (Kodi's vanliga útsjónd)</summary>
 		<summary lang="fr_CA">Habillage Confluence par Jezz_X.</summary>
@@ -506,7 +506,7 @@ v5.2.14 (2017-01-23)
 		<description lang="es_MX">Confluence es el skin por defecto para Kodi 9.11 en adelante. Es una combinación de conceptos de varias skins populares, e intenta adoptar e integrar sus buenas ideas en un skin que debería ser fá de entender y usar para quienes usen Kodi por primera vez.</description>
 		<description lang="et_EE">Confluence on Kodi vaikerüü alates versioonist 9.11. Confluence on paljude populaarsete rüüde kombinatsioon, üritades omavahel siduda nende parimaid lahendusi, et saavutada esmakasutajale selget ja kergelt kasutatavat tulemust.</description>
 		<description lang="eu_ES">Confluence hainbat azal ospetsutatik hartutako kontzeptuen konbinaketa da. Horietatik ideia onak hartu eta integratzen saiatzen da, Kodi lehen aldiz erabiltzen dutenentzat ulertzeko eta erabiltzeko erraza izango den azal batean.</description>
-		<description lang="fa_IR">Confluence پوسته پیش فرض Kodi در ویرایش 14 و بالاتر است. این پوسته ترکیبی از چند پوسته محبوب دیگر است و تلاش دارد بهترین ایده ها را با هم ترکیب کند، تا شروعی ساده و آسان را برای کاربران جدید Kodi امکان پذیر سازد.</description>
+		<description lang="fa_IR">Confluence ترکیبی از چند پوسته محبوب دیگر است و تلاش دارد بهترین ایده ها را با هم ترکیب کند، تا شروعی ساده و آسان را برای کاربران جدید Kodi امکان پذیر سازد.</description>
 		<description lang="fi_FI">Confluence on yhdistelmä useiden suosittujen ulkoasujen konsepteista, ja yritys omaksua ja integroida heidän hyvät ideat ulkoasuun, jonka pitäisi olla helppokäyttöinen ja -tajuinen kaikille Kodin käyttäjille.</description>
 		<description lang="fo_FO">Confluence er vanliga útsjóndin, sum er brúkt í Kodi síðan útg. 9.11. Hetta er ein samansjóðan av fleiri hugtøkum. Ætlanin er at útsjóndin skal lætta um móttøku og nýtslu av Kodi fyri nýggjar brúkarar.</description>
 		<description lang="fr_CA">Confluence est une combinaison de concepts provenant de plusieurs habillages populaires. Il tente d’inclure et d’intégrer leurs bonnes idées en un habillage qui devrait être facile à comprendre et à utiliser pour les utilisateurs débutants de Kodi.</description>
@@ -565,7 +565,7 @@ v5.2.14 (2017-01-23)
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>Updated music artist info.</news>
+		<news>- Add support for PVR reminders.[CR]- Fix / add new buttons in PVR information window.[CR]- Update PVR group manager dialog with latest changes.</news>
 	</extension>
 </addon>
 
