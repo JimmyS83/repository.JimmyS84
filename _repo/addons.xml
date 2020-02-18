@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="metadata.csfd"
-       name="ÄŚSFD.cz"
+       name="ČSFD.cz"
         version="3.6"
        provider-name="Jirka">
   <requires>
@@ -13,17 +13,17 @@
              language="cs"
              library="csfd.xml"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">ÄŚSFD Movie Scraper</summary>
-    <summary lang="cs">ÄŚSFD StahovaÄŤ</summary>
+    <summary lang="en">ČSFD Movie Scraper</summary>
+    <summary lang="cs">ČSFD Stahovač</summary>
     <description lang="en">Download Movie information from www.csfd.cz (czech-slovak movie database) / combined with www.imdb.com</description>
-    <description lang="cs">Stahuje informace o filmech z ÄŚSFD.cz (kombinovanÄ› s IMDB.com).
-NĂˇzev filmu, obsah a hodnocenĂ­ jsou staĹľeny z csfd.cz, ostatnĂ­ informace (vÄŤetnÄ› nĂˇhledu) z imdb.com
+    <description lang="cs">Stahuje informace o filmech z ČSFD.cz (kombinovaně s IMDB.com).
+Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (včetně náhledu) z imdb.com
 </description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="AktuĂˇlnÄ›.cz" version="2.1.3" provider-name="Petr ÄŚermĂˇk, Ĺ tÄ›pĂˇn Ort, wombat">
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.3" provider-name="Petr Čermák, Štěpán Ort, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -31,9 +31,9 @@ NĂˇzev filmu, obsah a hodnocenĂ­ jsou staĹľeny z csfd.cz, ostatnĂ­ infor
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>AktuĂˇlnÄ›.cz</summary>
+    <summary>Aktuálně.cz</summary>
 	<description>Plugin to play videos from Aktualne.cz</description>
-    <description lang="cs">AktuĂˇlnÄ›.cz - kompletnĂ­ zpravodajstvĂ­, zprĂˇvy z domova i ze svÄ›ta</description>
+    <description lang="cs">Aktuálně.cz - kompletní zpravodajství, zprávy z domova i ze světa</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -52,7 +52,7 @@ NĂˇzev filmu, obsah a hodnocenĂ­ jsou staĹľeny z csfd.cz, ostatnĂ­ infor
     <platform>all</platform>
     <summary>Stream | TelevizeSeznam.cz</summary>
     <description>
-        PĹ™inĂˇĹˇĂ­me originĂˇlnĂ­ poĹ™ady a seriĂˇly z vlastnĂ­ produkce. Bavte se s nĂˇmi. Kdykoliv a odkudkoliv.
+        Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
     </description>
     <source>https://github.com/lama18/plugin.video.dmd-czech.stream</source>
   </extension>
@@ -72,9 +72,9 @@ NĂˇzev filmu, obsah a hodnocenĂ­ jsou staĹľeny z csfd.cz, ostatnĂ­ infor
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>XTV.cz - NezĂˇvislĂˇ internetovĂˇ televize</summary>
+    <summary>XTV.cz - Nezávislá internetová televize</summary>
     <description>
-       XTV je nezĂˇvislĂˇ internetovĂˇ televize, kterĂˇ mĂˇ ambici pĹ™inĂˇĹˇet svĂ˝m divĂˇkĹŻm rozhovory s osobnostmi ÄŤeskĂ©ho veĹ™ejnĂ©ho Ĺľivota â€“ jejich postoje, nĂˇzory, stanoviska, argumenty i aktuĂˇlnĂ­ komentĂˇĹ™e pĹ™Ă­mo do jejich poÄŤĂ­taÄŤĹŻ ÄŤi mobilnĂ­ch zaĹ™Ă­zenĂ­.
+       XTV je nezávislá internetová televize, která má ambici přinášet svým divákům rozhovory s osobnostmi českého veřejného života – jejich postoje, názory, stanoviska, argumenty i aktuální komentáře přímo do jejich počítačů či mobilních zařízení.
     </description>
     <source>https://github.com/lama18/plugin.video.dmd-czech.xtv</source>
   </extension>
@@ -94,8 +94,8 @@ NĂˇzev filmu, obsah a hodnocenĂ­ jsou staĹľeny z csfd.cz, ostatnĂ­ infor
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Dokumenty.tv</summary>
         <description lang="en">Documentary videos from Dokumenty.tv page</description>
-        <description lang="sk">DokumentĂˇrne videĂˇ zo strĂˇnky Dokumenty.tv</description>
-        <description lang="cs">DokumentĂˇrnĂ­ videa ze strĂˇnky Dokumenty.tv</description>
+        <description lang="sk">Dokumentárne videá zo stránky Dokumenty.tv</description>
+        <description lang="cs">Dokumentární videa ze stránky Dokumenty.tv</description>
         <news>
 [B]0.0.4[/B]
 - added to repository
@@ -115,7 +115,7 @@ NĂˇzev filmu, obsah a hodnocenĂ­ jsou staĹľeny z csfd.cz, ostatnĂ­ infor
 <addon id="plugin.video.infocz"
 version="0.0.4"
 name="Info.Cz Kodi Video Plugin"
-provider-name="Petr ÄŚermĂˇk">
+provider-name="Petr Čermák">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
   <import addon="script.module.dmd-czech.common" version="1.5.5"/>
@@ -128,7 +128,7 @@ provider-name="Petr ÄŚermĂˇk">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">INFO.cz</summary>
   <description>Video plugin for Czech news server info.cz.</description>
-  <description lang="cs">DoplnÄ›k pro pĹ™ehrĂˇvĂˇnĂ­ videĂ­ z ÄŤeskĂ©ho zpravodajskĂ©ho webu info.cz.</description>
+  <description lang="cs">Doplněk pro přehrávání videí z českého zpravodajského webu info.cz.</description>
   <assets>
     <icon>resources\info-logo.jpg</icon>
     <fanart>resources\strunc.jpg</fanart>
@@ -162,10 +162,10 @@ provider-name="Petr ÄŚermĂˇk">
         Plugin to play Mall.TV
     </description>
     <description lang="cs">
-        Plugin pro pĹ™ehrĂˇvĂˇnĂ­ Mall.TV
+        Plugin pro přehrávání Mall.TV
     </description>
     <description lang="sk">
-        Plugin na prehrĂˇvanie Mall.TV
+        Plugin na prehrávanie Mall.TV
     </description>
     <source>https://github.com/koudi/plugin.video.mall.tv</source>
   </extension>
@@ -182,7 +182,7 @@ provider-name="Petr ÄŚermĂˇk">
   <extension point="xbmc.addon.metadata">
     <summary>iPrima</summary>
 	<description>Plugin to play videos from iPrima archive</description>
-    <description lang="cs">Plugin nabĂ­zĂ­ pĹ™Ă­stup do archivu iPrima.</description>
+    <description lang="cs">Plugin nabízí přístup do archivu iPrima.</description>
     <platform>all</platform>
     <source>https://github.com/alladdin/plugin.video.primaplay</source>
   </extension>
@@ -223,7 +223,7 @@ provider-name="Petr ÄŚermĂˇk">
     <platform>all</platform>
     <summary>TelevizeSeznam.cz</summary>
     <description>
-        InternetovĂˇ televize TelevizeSeznam.cz plnĂˇ desĂ­tek originĂˇlnĂ­ch poĹ™adĹŻ, videĂ­ seriĂˇlĹŻ, kterĂ© si pustĂ­te, kdy chcete vy Online a offline v aplikaci.
+        Internetová televize TelevizeSeznam.cz plná desítek originálních pořadů, videí seriálů, které si pustíte, kdy chcete vy Online a offline v aplikaci.
     </description>
     <source>https://github.com/lama18/plugin.video.televizeseznam.cz</source>
   </extension>
@@ -270,7 +270,7 @@ provider-name="Petr ÄŚermĂˇk">
 </addon>
 
 <addon id="repository.xbmc-kodi.cz"
-        name="XBMC-Kodi CZ/SK repozitĂˇĹ™"
+        name="XBMC-Kodi CZ/SK repozitář"
         version="1.0.0"
         provider-name="XBMC-Kodi.cz">
 
@@ -283,8 +283,8 @@ provider-name="Petr ÄŚermĂˇk">
 
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>ÄŚesko-slovenskĂˇ komunita fanouĹˇkĹŻ XBMC/Kodi</summary>
-        <description>RepozitĂˇĹ™ pro ÄŤesko-slovenskou komunitu fanouĹˇkĹŻ XBMC/Kodi</description>
+        <summary>Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
+        <description>Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
     </extension>
 </addon>
 
@@ -316,9 +316,9 @@ provider-name="Petr ÄŚermĂˇk">
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj prikljuÄŤaka za video dodatke koji zahtjevaju viĹˇestruke video izvore.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 	</extension>
 </addon>
 
@@ -336,9 +336,9 @@ provider-name="Petr ÄŚermĂˇk">
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj prikljuÄŤaka za video dodatke koji zahtjevaju viĹˇestruke video izvore.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 		<forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
 	</extension>
