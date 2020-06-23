@@ -229,6 +229,23 @@ provider-name="Petr Čermák">
   </extension>
 </addon>
 
+<addon id="repository.cder.sk"
+        name="cder.sk"
+        version="1.0.2"
+        provider-name="cder.sk">
+    <extension point="xbmc.addon.repository">
+        <info>https://cder.sk/addons/addons.xml.gz</info>
+        <checksum verify="sha256">https://cder.sk/addons/addons.xml.gz?sha256</checksum>
+        <datadir zip="true">https://cder.sk/addons/</datadir>
+        <hashes>sha256</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
+        <description>Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
     <addon id="repository.JimmyS84" name="JimmyS84 repository" version="1.0.0" provider-name="JimmyS84">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
