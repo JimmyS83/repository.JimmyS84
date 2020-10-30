@@ -391,7 +391,7 @@ provider-name="Petr Čermák">
 
 <addon id="script.365.epg.generator"
        name="365 EPG Generator"
-       version="1.4.0"
+       version="1.4.9"
        provider-name="Sároš">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -404,6 +404,79 @@ provider-name="Petr Čermák">
         <platform>all</platform>
         <language/>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <news>v1.4.9
+- možnost nastavit časový posun EPG
+
+v1.4.8
+- EPG na 7 dní zpětně
+
+v1.4.7
+- EPG na 15 dní dopředu
+
+v1.4.6
+- volba spuštění kanálu (TV/radio) po restartu PVR klienta
+
+v1.4.5
+- oprava chyb
+
+v1.4.4
+- vyřešen problém s ukončením Kodi
+- oprava chyb
+
+v1.4.3
+- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelně)
+
+v1.4.2
+- oprava chyb
+
+v1.4.1
+- přidán TV program pro rádia
+
+v1.4.0
+- diakritika v tvg-id (volitelně)
+- vlastní názvy kanálů v EPG
+- optimalizace
+
+v1.3.8
+- optimalizace, oprava chyb
+
+v1.3.7
+- možnost uložení souboru na síťové úložiště
+
+v1.3.6
+- sloučení kanálů ČT:D a ČT Art
+
+v1.3.5
+- odstranění diakritiky v channel id
+
+v1.3.3
+- Možnost vypnout upozornění při automatické aktualizaci
+
+v1.3.2
+- Drobné opravy
+
+v1.3.1
+- Drobné opravy
+
+v1.3.0
+- Přidán kanál BBC Earth
+
+v1.2.1
+- Možnost vložit loga kanálů (volitelně)
+
+v1.2.0
+- Možnost přidat vlastní kanály
+
+v1.1.0
+- Opraveno řazení programů
+- Přidáno spuštění po startu a automatická aktualizace v zadaný čas
+
+v1.0.0
+- První vydání
+        </news>
     </extension>
 </addon>
 
