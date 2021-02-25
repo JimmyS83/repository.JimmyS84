@@ -1,0 +1,17 @@
+Version 5.1.25 (February 20, 2021)
+- Code Base Changes:
+    - None
+
+- Resolvers Added:
+    - None
+ 
+- Resolvers Fixed/Updated:
+    - fembed
+    - tvlogy
+
+
+- Resolvers Removed
+    - None
+
+- Languages Added/Updated
+    - None
