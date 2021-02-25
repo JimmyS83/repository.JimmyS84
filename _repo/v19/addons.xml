@@ -20,6 +20,9 @@
 Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (včetně náhledu) z imdb.com
 </description>
     <platform>all</platform>
+	<assets>
+				<icon>icon.png</icon>
+			</assets>
   </extension>
 </addon>
 
@@ -39,6 +42,9 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
             <summary>JimmyS84 Addons</summary>
             <description>Improved things for Kodi.</description>
             <platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
     </extension>
 </addon>
 
@@ -207,6 +213,9 @@ v1.0.0
         <disclaimer lang="el_GR">Το ανωτέρο σενάριο το μόνο που κάνει είναι να επιλύει οπτικοακουστικό περιεχόμενο από νόμιμες πηγές χωρίς προκατάληψη. Εάν το ανωτέρο σενάριο χρησιμοποιηθεί από τρίτους ώστε να επιλύσει περιεχόμενο το οποίο σας προκαλεί αντίδραση ότι παραβιάζει την πνευματική σας ιδιοκτησία παρακαλώ μεταφέρετε τα παραπονά σας στον ιστότοπο τον οποίο βρίσκεται το εν λόγω περιεχόμενο η τον δημιουργό ο οποίος πραγματοποιεί την σύνδεση και όχι εδω. Το σενάριο αυτό ουδεμία περίπτωση πραγματοποιεί αναζήτηση περιεχομένου.</disclaimer>
         <forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
+		<assets>
+				<icon>icon.png</icon>
+			</assets>
     </extension>
 </addon>
 
@@ -451,6 +460,9 @@ v5.2.14 (2017-01-23)
     <license>GPLv2</license>
     <forum>http://forum.kodi.tv/showthread.php?tid=188839</forum>
     <source>https://github.com/slash2009/XWMM</source>
+	<assets>
+				<icon>icon.png</icon>
+			</assets>
   </extension>
 </addon>
 </addons>
