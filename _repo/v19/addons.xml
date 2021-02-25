@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="skin.confluence" version="4.7.12" name="Confluence" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.confluence2" version="4.7.12" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
@@ -165,5 +165,27 @@
 		</assets>
 		<news>- Fix PVR radio record button.[CR]- Fix PVR recording label.[CR]- Fix posters.</news>
 	</extension>
+</addon>
+
+<addon
+  id="webinterface.WIMM"
+  version="4.1.23"
+  name="WIMM"
+  provider-name="slash | Zernable | MokuJinJin | nwtn | fyfe | criticalfiction">
+  <requires>
+    <import addon="xbmc.json" version="6.14.3"/>
+  </requires>
+  <extension
+    point="xbmc.webinterface"/>
+  <extension
+    point="xbmc.addon.metadata">
+    <summary lang="en">Web interface to manage media library for kodi.</summary>
+    <description lang="en">WIMM allows you to customize and change metadata for movies, tvshows and music from a standard browser</description>
+    <disclaimer lang="en">This is a beta addon and may contain bugs or flawed code, please contact us via github project issues and help us fix the problem</disclaimer>
+    <platform>all</platform>
+    <license>GPLv2</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=188839</forum>
+    <source>https://github.com/slash2009/XWMM</source>
+  </extension>
 </addon>
 </addons>
