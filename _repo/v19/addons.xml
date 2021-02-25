@@ -221,7 +221,7 @@ v1.0.0
 
 <addon id="service.subtitles.opensubtitles_by_opensubtitles"
        name="OpenSubtitles.org by OpenSubtitles"
-       version="5.2.14"
+       version="5.2.15"
        provider-name="amet, opensubtitles">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
