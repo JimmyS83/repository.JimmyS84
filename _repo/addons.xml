@@ -39,7 +39,7 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
     </extension>
 </addon>
 
-    <addon id="repository.JimmyS84" name="JimmyS84 repository" version="1.0.0" provider-name="JimmyS84">
+    <addon id="repository.JimmyS84" name="JimmyS84 repository" version="1.0.1" provider-name="JimmyS84">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
