@@ -443,7 +443,7 @@ v5.2.14 (2017-01-23)
 
 <addon
   id="webinterface.WIMM"
-  version="4.1.23"
+  version="4.1.24"
   name="WIMM"
   provider-name="slash | Zernable | MokuJinJin | nwtn | fyfe | criticalfiction">
   <requires>
@@ -460,9 +460,6 @@ v5.2.14 (2017-01-23)
     <license>GPLv2</license>
     <forum>http://forum.kodi.tv/showthread.php?tid=188839</forum>
     <source>https://github.com/slash2009/XWMM</source>
-	<assets>
-				<icon>icon.png</icon>
-			</assets>
   </extension>
 </addon>
 </addons>
