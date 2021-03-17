@@ -2,7 +2,7 @@
 <addons>
 <addon id="metadata.csfd"
        name="ČSFD.cz"
-        version="3.7"
+        version="3.8"
        provider-name="Jirka">
   <requires>
     <import addon="xbmc.metadata" version="1.0"/>
@@ -402,7 +402,7 @@ v5.2.14 (2017-01-23)
 
 <addon
   id="webinterface.WIMM"
-  version="4.1.26"
+  version="4.1.27"
   name="WIMM"
   provider-name="slash | Zernable | MokuJinJin | nwtn | fyfe | criticalfiction">
   <requires>
