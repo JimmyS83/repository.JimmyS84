@@ -402,7 +402,7 @@ v5.2.14 (2017-01-23)
 
 <addon
   id="webinterface.WIMM"
-  version="4.1.28"
+  version="4.1.29"
   name="WIMM"
   provider-name="slash | Zernable | MokuJinJin | nwtn | fyfe | criticalfiction">
   <requires>
