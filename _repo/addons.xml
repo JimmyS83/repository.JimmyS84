@@ -44,23 +44,41 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
 
 <addon id="script.365.epg.generator"
        name="365 EPG Generator"
-       version="1.4.9"
+       version="1.5.4"
        provider-name="Sároš">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="script.module.routing" version="0.1.0"/>
     </requires>
     <extension point="xbmc.python.script" library="main.py"/>
     <extension point="xbmc.service" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <description lang="en">XML Generator for EPG.</description>
         <platform>all</platform>
-        <language/>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <assets>
             <icon>icon.png</icon>
         </assets>
-        <news>v1.4.9
+        <news>v1.5.4 (13.03.2021)
+- loga kanálů: oprava url adresy
+
+v1.5.3 (10.12.2020)
+- fix dialogu průběhu generování
+
+v1.5.2 (10.12.2020)
+- možnost zobrazit průběh generování
+- seznam tvg-id kanálu (nastavení - pokročilé)
+
+v1.5.1
+- opraveno parsování
+
+v1.5.0
+- opraveno parsování kanálu BBC Earth
+
+v1.4.10
+- optimalizace
+
+v1.4.9
 - možnost nastavit časový posun EPG
 
 v1.4.8

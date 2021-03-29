@@ -1,0 +1,85 @@
+[B]v1.5.4 (13.03.2021)[/B]
+- loga kanálů: oprava url adresy
+
+[B]v1.5.3 (10.12.2020)[/B]
+- fix dialogu průběhu generování
+
+[B]v1.5.2 (10.12.2020)[/B]
+- možnost zobrazit průběh generování
+- seznam tvg-id kanálu (nastavení - pokročilé)
+
+[B]v1.5.1[/B]
+- opraveno parsování
+
+[B]v1.5.0[/B]
+- opraveno parsování kanálu BBC Earth
+
+[B]v1.4.10[/B]
+- optimalizace
+
+[B]v1.4.9[/B]
+- možnost nastavit časový posun EPG
+
+[B]v1.4.8[/B]
+- EPG na 7 dní zpětně
+
+[B]v1.4.7[/B]
+- EPG na 15 dní dopředu
+
+[B]v1.4.6[/B]
+- volba spuštění kanálu (TV/radio) po restartu PVR klienta
+
+[B]v1.4.4[/B]
+- vyřešen problém s ukončením Kodi
+- oprava chyb
+
+[B]v1.4.3[/B]
+- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelně)
+
+[B]v1.4.2[/B]
+- oprava chyb
+
+[B]v1.4.1[/B]
+- přidán TV program pro rádia
+
+[B]v1.4.0[/B]
+- diakritika v tvg-id (volitelně)
+- vlastní názvy kanálů v EPG
+- optimalizace
+
+[B]v1.3.8[/B]
+- optimalizace, oprava chyb
+
+[B]v1.3.7[/B]
+- možnost uložení souboru na síťové úložiště
+
+[B]v1.3.6[/B]
+- sloučení kanálů ČT:D a ČT Art
+
+[B]v1.3.5[/B]
+- odstranění diakritiky v channel id
+
+[B]v1.3.3[/B]
+- Možnost vypnout upozornění při automatické aktualizaci
+
+[B]v1.3.2[/B]
+- Drobné opravy
+
+[B]v1.3.1[/B]
+- Drobné opravy
+
+[B]v1.3.0[/B]
+- Přidán kanál BBC Earth
+
+[B]v1.2.1[/B]
+- Možnost vložit loga kanálů (volitelně)
+
+[B]v1.2.0[/B]
+- Možnost přidat vlastní kanály
+
+[B]v1.1.0[/B]
+- Opraveno řazení programů
+- Přidáno spuštění po startu a automatická aktualizace v zadaný čas
+
+[B]v1.0.0[/B]
+- První vydání
