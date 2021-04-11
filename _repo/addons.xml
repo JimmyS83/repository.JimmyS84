@@ -23,6 +23,36 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
   </extension>
 </addon>
 
+<addon id="plugin.audio.tuneinradio" name="TuneIn Radio" version="3.0.4" provider-name="brianhornsby">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="bg">Радио TuneIn</summary>
+		<summary lang="en">TuneIn Radio</summary>
+		<summary lang="de">TuneIn Radio</summary>
+		<summary lang="es">TuneIn Radio</summary>
+		<summary lang="el">Ραδιόφωνο TuneIn</summary>
+        <summary lang="cs">TuneIn Radio</summary>
+		<description lang="bg">Радио TuneIn е безплатна услуга, която ви позволява да слушате всичко, независимо къде се намирате. Каквото желаете - музика, спорт или новини. Радио TuneIn предлага над 50 000 станции от които да избирате. Можете да намерите местните станции или да откриете нови станции от целия свят. Радио TuneIn ви отвежда точно където желаете да сте.</description>
+		<description lang="en">TuneIn Radio is a free service that lets you listen to anything in the world from wherever you are. Whether you want to hear music, sports, news or current events. TuneIn Radio offers over 50,000 stations for you to choose from. From finding local stations to discovering new stations from around the world, TuneIn Radio brings you to where you want to be.</description>
+		<description lang="de">TuneIn Radio ist ein kostenloser Service, mit dem Sie alles in der Welt, wo immer Sie sind, hören können. Ob Sie Musik, Sport, Nachrichten oder aktuelle Ereignisse hören wollen. TuneIn Radio hält über 50.000 Sender für Sie bereit. Von der Suche nach lokalen Sender, bis zum entdecken neue Sender aus der ganzen Welt. TuneIn Radio bringt Sie, wohin sie wollen.</description>
+		<description lang="es">TuneIn Radio es un servicio gratuito que te permite escuchar cualquier cosa del mundo desde donde te encuentres. Si deseas escuchar música, deportes, noticias o eventos actuales. TuneIn Radio ofrece más de 50,000 estaciones radiales para escoger, desde estaciones locales hasta descubrir nuevas estaciones alrededor del mundo, TuneIn Radio te lleva a donde tu quieras estar.</description>
+		<description lang="el">Το ραδιόφωνο TuneIn είναι μία δωρεάν υπηρεσία το οποίο σας επιτρέπει να ακούτε οποιοδήποτε σταθμό από όλο τον κόσμο, από όπου και αν βρίσκεστε. Ακόμη και αν θέλετε να ακούσετε μουσική, αθλητικά γεγονότα, ειδήσεις και άλλα γεγονότα, το ραδιόφωνο TuneIn προσφέρει πάνω από 50.000 σταθμούς για εσάς να διαλέξετε. Είτε θέλετε να ακούσετε τοπικούς σταθμούς είτε να ανακαλύψετε νέους από όλο τον κόσμο, το ραδιόφωνο TuneIn σας πηγαίνει όπου θελήσετε να βρεθείτε.</description>
+		<description lang="cs">TuneIn Radio je bezplatná služba, která vám umožní poslouchat cokoliv na světě z jakéhokoliv místa. Je jen na vás, zda chcete poslouchat hudbu, sport, zprávy nebo běžné události. TuneIn Radio nabízí přes 50.000 stanic, které si můžete zvolit. Můžete poslouchat místní stanice nebo objevovat nové stanice z celého světa. TuneIn Radio vás přivede tam, kde chcete být.</description>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=119315</forum>
+		<website>http://brianhornsby.com/kodi_addons/tuneinradio</website>
+		<source>https://github.com/brianhornsby/plugin.audio.tuneinradio</source>
+	</extension>
+</addon>
+
     <addon id="repository.JimmyS84" name="JimmyS84 repository" version="1.0.1" provider-name="JimmyS84">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
