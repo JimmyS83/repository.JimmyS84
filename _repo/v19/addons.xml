@@ -75,6 +75,43 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
     </extension>
 </addon>
 
+<addon id="repository.saros" name="Kodi Saros Addons" version="1.0.0" provider-name="Sároš">
+	<extension point="xbmc.addon.repository" name="repozitář doplňků">
+		<info compressed="false">http://saros.wz.cz/repo/addons.xml</info>
+		<checksum>http://saros.wz.cz/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://saros.wz.cz/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Saros Addons</summary>
+		<description>Kodi Saros Addons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.xbmc-kodi.cz"
+        name="XBMC-Kodi CZ/SK repozitář"
+        version="1.2.0"
+        provider-name="XBMC-Kodi.cz">
+    <requires>
+        <import addon="xbmc.addon" version="18.9.701"/>
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <info>https://mirror.xbmc-kodi.cz/addons/matrix/addons.xml.gz</info>
+        <checksum verify="sha256">https://mirror.xbmc-kodi.cz/addons/matrix/addons.xml.gz?sha256</checksum>
+        <datadir>https://mirror.xbmc-kodi.cz/addons/matrix/</datadir>
+		<artdir>https://mirror.xbmc-kodi.cz/addons/matrix/</artdir>
+        <hashes>sha256</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs_CZ">Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
+        <description lang="cs_CZ">Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="script.365.epg.generator"
        name="365 EPG Generator"
        version="2.0.0"
