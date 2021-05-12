@@ -2,7 +2,7 @@
 <addons>
 <addon id="metadata.csfd"
        name="ČSFD.cz"
-        version="3.8"
+        version="3.9"
        provider-name="Jirka">
   <requires>
     <import addon="xbmc.metadata" version="1.0"/>
