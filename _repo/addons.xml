@@ -25,7 +25,7 @@ Název filmu, obsah a hodnocení jsou staženy z csfd.cz, ostatní informace (v�
 
 <addon id="metadata.csfd.cz.python"
        name="ČSFD.cz python"
-       version="1.5.3"
+       version="1.5.4"
        provider-name="JimmyS">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
