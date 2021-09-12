@@ -357,7 +357,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="skin.confluence2" version="4.7.16" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.confluence2" version="4.7.22" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
@@ -491,23 +491,14 @@ v5.2.14 (2017-01-23)
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-			<screenshot>resources/screenshot-05.jpg</screenshot>
-			<screenshot>resources/screenshot-06.jpg</screenshot>
-			<screenshot>resources/screenshot-07.jpg</screenshot>
-			<screenshot>resources/screenshot-08.jpg</screenshot>
-			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>- Fix PVR radio record button.[CR]- Fix PVR recording label.[CR]- Fix posters.</news>
+		<news></news>
 	</extension>
 </addon>
 
 <addon
   id="webinterface.WIMM"
-  version="4.1.29"
+  version="4.1.30"
   name="WIMM"
   provider-name="slash | Zernable | MokuJinJin | nwtn | fyfe | criticalfiction">
   <requires>
