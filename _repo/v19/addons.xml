@@ -27,11 +27,11 @@
 
 <addon id="metadata.csfd.cz.python"
        name="ČSFD.cz python"
-       version="1.5.15"
+       version="1.5.16"
        provider-name="JimmyS">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
-    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.python" version="2.26.0"/>
   </requires>
   <extension point="xbmc.metadata.scraper.movies"
              library="python/scraper.py"/>
