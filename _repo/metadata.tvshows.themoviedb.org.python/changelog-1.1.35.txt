@@ -1,0 +1,79 @@
+1.1.34
+fix for crash if Kodi calls the scraper without passing the source settings
+change so that old TVDB XML scraper episodeguide URL will work to get new episodeguide from TMDb
+
+
+1.1.33
+fix for crash if TMDb returns no TV show results when using external id in parsing nfo file
+
+1.1.32
+TV show trailers from YouTube now included in metadata (with option to turn it off)
+option to select which YouTube addon is used to play trailers
+scraper now parses IDs from TVDB and IMDB URLs for identifying shows
+(thanks to tielis for these contributions)
+
+1.1.31
+fix for named seasons in NFO files being ignored
+
+1.1.30
+original title is now saved along with title in selected language
+added option (default to true) to separate fanart from landscape art
+
+1.1.29
+writer credits now include anyone with TMDb department of Writing
+changed location of cache files to special://temp/metadata.tvshows.themoviedb.org.python/cache
+
+1.1.26
+fix for episode groupings numbering seasons incorrectly
+fix for incorrect parsing of episode guide URL from XML scraper
+fix for crash in certain circumstances when TMDb returns no results
+fix for failed searches if show title has extended characters in it
+fix for changes in data delivered by TMDb API
+
+1.1.18
+scraper returns primary poster as the first poster from TMDb if no posters for the chosen language are available
+fix for shows/episodes not loading cast correctly
+fix for crash when episode has no name
+updated debug logging
+
+1.1.17
+fix for crash if show had no network listed on TMDb
+
+1.1.16
+change so that scraper returns English data for a show if data is missing in selected language
+fixed order of certification preferences in setting
+fixed crash if logging data with extended characters
+
+1.1.15
+pull configuration for TMDb API from the API server and cache it
+delete expired cache files periodically
+first version available via the Kodi repo
+
+1.1.14
+removed external module dependencies
+version number change to reflect that Leia and Matrix code are no longer in sync (Leia will remain on 1.1.x, Matrix will be 1.2.x and higher)
+
+1.1.13
+added back Trakt ratings (different method to avoid crashes)
+changed how images are retrieved to ensure something is returned in most cases (see post below for more details)
+
+1.1.12
+fix for crash if scraping an episode with an nfo file that doesn't have the TMDb ID in it
+
+1.1.11
+fix for source settings being ignored
+
+1.1.10
+removed Trakt support due to periodic crashes
+
+1.1.9
+added option to get ratings from Trakt and IMDb
+added option to disable the text prepended to the content rating
+re-arranged settings
+since the code is shared between the two releases, synced version numbers
+
+1.1.8
+fix for crash if scraping a show with lots of artwork
+
+1.1.7
+added support for fanarttv client key
