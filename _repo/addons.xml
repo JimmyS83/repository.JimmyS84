@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="metadata.csfd"
-       name="ČSFD.cz"
-        version="3.9"
-       provider-name="JimmyS">
-  <requires>
-    <import addon="xbmc.metadata" version="1.0"/>
-    <import addon="metadata.common.themoviedb.org" version="1.0.7"/>
-    <import addon="metadata.common.imdb.com" version="1.0.5"/>
-  </requires>
-  <extension point="xbmc.metadata.scraper.movies"
-             language="cs"
-             library="csfd.xml"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">ČSFD Movie Scraper</summary>
-    <summary lang="cs">ČSFD Stahovač</summary>
-    <description lang="en">Download Movie information from www.csfd.cz</description>
-    <description lang="cs">Stahuje informace o filmech z ČSFD.cz
-</description>
-    <platform>all</platform>
-	<assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="metadata.csfd.cz.python"
        name="ČSFD.cz python"
        version="1.5.17"
