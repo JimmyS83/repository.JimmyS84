@@ -107,6 +107,33 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
     </extension>
 </addon>
 
+<addon id="plugin.video.novaplus.cz" name="Nova Plus" provider-name="Jiri Vyhnalek, wombat" version="1.2.6">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="script.module.beautifulsoup4" version="4.6.2" />
+        <import addon="script.module.routing" version="0.2.3" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Nova Plus - online televize TV Nova</summary>
+    <summary lang="cs_CZ">Nova Plus - online televize TV Nova</summary>
+    <description lang="en_GB">Vaše oblíbené seriály, pořady a živé vysílání TV Nova na online televizi Nova Plus, které si pustíte, kdy chcete vy.</description>
+    <description lang="cs_CZ">Vaše oblíbené seriály, pořady a živé vysílání TV Nova na online televizi Nova Plus, které si pustíte, kdy chcete vy.</description>
+    <platform>all</platform>
+    <source>https://github.com/xbmc-kodi-cz/plugin.video.novaplus.cz</source>
+    <news>
+- Změna závislostí
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
     <addon id="repository.JimmyS84" name="JimmyS84 repository" version="1.0.1" provider-name="JimmyS84">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
