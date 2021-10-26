@@ -409,7 +409,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="skin.confluence2" version="4.7.23" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
+<addon id="skin.confluence2" version="4.7.24" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
