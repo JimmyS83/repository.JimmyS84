@@ -25,7 +25,7 @@
 
 <addon id="metadata.tvshows.themoviedb.org.python"
   name="TMDb TV Shows"
-  version="1.1.35"
+  version="1.1.36"
   provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.python" version="2.26.0" />
