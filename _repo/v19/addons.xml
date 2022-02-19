@@ -514,7 +514,7 @@ Keep it legal and carry on
   </extension>
 </addon>
 
-<addon id="skin.confluence2" version="4.7.25" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
+<addon id="skin.confluence2" version="4.7.26" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
