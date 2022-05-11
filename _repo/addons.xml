@@ -264,7 +264,7 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 
 <addon id="script.365.epg.generator"
        name="365 EPG Generator"
-       version="1.5.55"
+       version="1.5.56"
        provider-name="Sároš">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
