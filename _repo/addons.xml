@@ -109,7 +109,7 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 
 <addon id="plugin.video.mall.tv"
        name="Mall.TV"
-       version="0.0.18"
+       version="0.0.19"
        provider-name="koudi">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />

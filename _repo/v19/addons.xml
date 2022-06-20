@@ -55,7 +55,7 @@
 
 <addon id="plugin.video.mall.tv"
        name="Mall.TV"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="koudi">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
