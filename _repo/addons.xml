@@ -490,7 +490,7 @@ v1.0.0
 
 <addon id="service.subtitles.opensubtitles-com"
        name="OpenSubtitles.com"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="amet, opensubtitles, juokelis, opensubtitlesdev, JimmyS">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
