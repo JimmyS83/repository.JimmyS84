@@ -189,7 +189,7 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="6.8.26~alpha3" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.26~alpha7" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.six" version="1.11.0"/>
@@ -535,7 +535,7 @@ v1.0.0
 
 <addon id="service.subtitles.opensubtitles-com"
        name="OpenSubtitles.com"
-       version="1.0.7"
+       version="1.0.8"
        provider-name="amet, opensubtitles, juokelis, opensubtitlesdev, JimmyS">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
