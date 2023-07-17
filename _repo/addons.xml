@@ -80,7 +80,7 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 	</extension>
 </addon>
 
-<addon id="plugin.video.aktualne.cz" name="Aktuálně.cz" version="2.2.9" provider-name="wombat">
+<addon id="plugin.video.aktualne.cz" name="Aktuálně.cz" version="2.2.10" provider-name="wombat">
     <requires>
         <import addon="xbmc.python" version="2.26.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
