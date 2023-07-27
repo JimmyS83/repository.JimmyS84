@@ -67,7 +67,7 @@
     </extension>
 </addon>
 
-<addon id="skin.confluence2" version="4.8.29" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
+<addon id="skin.confluence2" version="4.8.30" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
