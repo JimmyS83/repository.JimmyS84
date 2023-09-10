@@ -107,7 +107,7 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
     </extension>
 </addon>
 
-<addon id="plugin.video.iprima" version="1.4.3" name="iPrima.cz" provider-name="Roman Smolka">
+<addon id="plugin.video.iprima" version="1.4.5~beta" name="Prima+" provider-name="Roman Smolka">
 <requires>
 	<import addon="xbmc.python" version="2.5.0"/>
 	<import addon="script.module.routing" version="0.2.3"/>
@@ -118,8 +118,8 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 	<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-	<summary>iPrima.cz</summary>
-	<description>Doplněk pro zobrazování obsahu z archivu iPrima. [CR]Autor nedistribuuje žádný obsah zobrazený tímto doplňkem. Uživatelé se zájmem o přehrávání video obsahu by měli mít aktivní předplatné na iPrima.cz</description>
+	<summary>Prima+</summary>
+	<description>Doplněk pro zobrazování obsahu z archivu Prima+. [CR]Autor nedistribuuje žádný obsah zobrazený tímto doplňkem. Uživatelé se zájmem o přehrávání video obsahu by měli mít aktivní předplatné na iPrima.cz</description>
 	<platform>all</platform>
 	<source>https://github.com/RomanSmolka/plugin.video.iprima.git</source>
 	<assets>
@@ -128,38 +128,25 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 </extension>
 </addon>
 
-<addon id="plugin.video.mall.tv"
-       name="Mall.TV"
-       version="0.0.19"
-       provider-name="koudi">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.kodiswift" />
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Mall.TV</summary>
-    <summary lang="cs">Mall.TV</summary>
-    <summary lang="en">Mall.TV</summary>
-    <summary lang="sk">Mall.TV</summary>
-    <description>
-        Plugin to play Mall.TV
-    </description>
-    <description lang="cs">
-        Plugin pro přehrávání Mall.TV
-    </description>
-    <description lang="sk">
-        Plugin na prehrávanie Mall.TV
-    </description>
-    <source>https://github.com/koudi/plugin.video.mall.tv</source>
-  </extension>
+<addon id="plugin.video.iprima" version="1.4.5~beta" name="Prima+" provider-name="Roman Smolka">
+<requires>
+	<import addon="xbmc.python" version="2.5.0"/>
+	<import addon="script.module.routing" version="0.2.3"/>
+	<import addon="script.module.requests" version="2.22.0"/>
+	<import addon="script.module.inputstreamhelper" version="0.3.3" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>Prima+</summary>
+	<description>Doplněk pro zobrazování obsahu z archivu Prima+. [CR]Autor nedistribuuje žádný obsah zobrazený tímto doplňkem. Uživatelé se zájmem o přehrávání video obsahu by měli mít aktivní předplatné na iPrima.cz</description>
+	<platform>all</platform>
+	<source>https://github.com/RomanSmolka/plugin.video.iprima.git</source>
+	<assets>
+		<icon>resources/icon.png</icon>
+	</assets>
+</extension>
 </addon>
 
 <addon id="plugin.video.novaplus.cz" name="Nova Plus" provider-name="Jiri Vyhnalek, wombat" version="1.4.2">
