@@ -2,7 +2,7 @@
 <addons>
 <addon id="metadata.csfd.cz.python"
        name="ČSFD.cz python"
-       version="1.5.27"
+       version="1.5.28"
        provider-name="JimmyS">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -376,7 +376,7 @@ v1.0.0
 
 <addon id="service.subtitles.opensubtitles-com"
        name="OpenSubtitles.com"
-       version="1.1.7"
+       version="1.1.8"
        provider-name="amet, opensubtitles, juokelis, opensubtitlesdev">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
