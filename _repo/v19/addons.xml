@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="metadata.csfd.cz.python"
-       name="ČSFD.cz python"
-       version="1.5.28"
+       name="ÄŚSFD.cz python"
+       version="1.5.29"
        provider-name="JimmyS">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -11,8 +11,8 @@
   <extension point="xbmc.metadata.scraper.movies"
              library="python/scraper.py"/>
   <extension point="xbmc.addon.metadata">
-	<summary lang="cs_CZ">Stahovač informací k filmům z ČSFD</summary>
-	<description lang="cs">Stahuje informace o filmech z ČSFD.cz (kombinovaně s tmdb.org).</description>
+	<summary lang="cs_CZ">StahovaÄŤ informacĂ­ k filmĹŻm z ÄŚSFD</summary>
+	<description lang="cs">Stahuje informace o filmech z ÄŚSFD.cz (kombinovanÄ› s tmdb.org).</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <platform>all</platform>
     <license>GPL-2.0-or-later</license>
@@ -100,10 +100,10 @@
         Plugin to play Mall.TV
     </description>
     <description lang="cs">
-        Plugin pro přehrávání Mall.TV
+        Plugin pro pĹ™ehrĂˇvĂˇnĂ­ Mall.TV
     </description>
     <description lang="sk">
-        Plugin na prehrávanie Mall.TV
+        Plugin na prehrĂˇvanie Mall.TV
     </description>
     <source>https://github.com/koudi/plugin.video.mall.tv</source>
 	<assets>
@@ -180,7 +180,7 @@
 </addon>
 
 <addon id="repository.xbmc-kodi.cz"
-        name="XBMC-Kodi CZ/SK repozitář"
+        name="XBMC-Kodi CZ/SK repozitĂˇĹ™"
         version="1.2.0"
         provider-name="XBMC-Kodi.cz">
     <requires>
@@ -194,8 +194,8 @@
         <hashes>sha256</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="cs_CZ">Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
-        <description lang="cs_CZ">Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
+        <summary lang="cs_CZ">ÄŚesko-slovenskĂˇ komunita fanouĹˇkĹŻ XBMC/Kodi</summary>
+        <description lang="cs_CZ">RepozitĂˇĹ™ pro ÄŤesko-slovenskou komunitu fanouĹˇkĹŻ XBMC/Kodi</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -206,7 +206,7 @@
 <addon id="script.365.epg.generator"
        name="365 EPG Generator"
        version="2.0.2"
-       provider-name="Sároš">
+       provider-name="SĂˇroĹˇ">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
@@ -220,96 +220,96 @@
             <icon>icon.png</icon>
         </assets>
         <news>v2.0.0 (19.02.2021)
-- nově použito api TM TV Go pro kanály BBC Earth, Digi Sport 6 - 9
-- nastavení vlastních kanálů rozděleno do kategorií
-- editor vlastních názvů kanálů v EPG
-- optimalizace kódu
+- novÄ› pouĹľito api TM TV Go pro kanĂˇly BBC Earth, Digi Sport 6 - 9
+- nastavenĂ­ vlastnĂ­ch kanĂˇlĹŻ rozdÄ›leno do kategoriĂ­
+- editor vlastnĂ­ch nĂˇzvĹŻ kanĂˇlĹŻ v EPG
+- optimalizace kĂłdu
 
 v1.5.3 (10.12.2020)
-- fix dialogu průběhu generování
+- fix dialogu prĹŻbÄ›hu generovĂˇnĂ­
 
 v1.5.2 (10.12.2020)
-- možnost zobrazit průběh generování
-- seznam tvg-id kanálu (nastavení - pokročilé)
+- moĹľnost zobrazit prĹŻbÄ›h generovĂˇnĂ­
+- seznam tvg-id kanĂˇlu (nastavenĂ­ - pokroÄŤilĂ©)
 
 v1.5.1
-- opraveno parsování
+- opraveno parsovĂˇnĂ­
 
 v1.5.0
-- opraveno parsování kanálu BBC Earth
+- opraveno parsovĂˇnĂ­ kanĂˇlu BBC Earth
 
 v1.4.10
 - optimalizace
 
 v1.4.9
-- možnost nastavit časový posun EPG
+- moĹľnost nastavit ÄŤasovĂ˝ posun EPG
 
 v1.4.8
-- EPG na 7 dní zpětně
+- EPG na 7 dnĂ­ zpÄ›tnÄ›
 
 v1.4.7
-- EPG na 15 dní dopředu
+- EPG na 15 dnĂ­ dopĹ™edu
 
 v1.4.6
-- volba spuštění kanálu (TV/radio) po restartu PVR klienta
+- volba spuĹˇtÄ›nĂ­ kanĂˇlu (TV/radio) po restartu PVR klienta
 
 v1.4.5
 - oprava chyb
 
 v1.4.4
-- vyřešen problém s ukončením Kodi
+- vyĹ™eĹˇen problĂ©m s ukonÄŤenĂ­m Kodi
 - oprava chyb
 
 v1.4.3
-- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelně)
+- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelnÄ›)
 
 v1.4.2
 - oprava chyb
 
 v1.4.1
-- přidán TV program pro rádia
+- pĹ™idĂˇn TV program pro rĂˇdia
 
 v1.4.0
-- diakritika v tvg-id (volitelně)
-- vlastní názvy kanálů v EPG
+- diakritika v tvg-id (volitelnÄ›)
+- vlastnĂ­ nĂˇzvy kanĂˇlĹŻ v EPG
 - optimalizace
 
 v1.3.8
 - optimalizace, oprava chyb
 
 v1.3.7
-- možnost uložení souboru na síťové úložiště
+- moĹľnost uloĹľenĂ­ souboru na sĂ­ĹĄovĂ© ĂşloĹľiĹˇtÄ›
 
 v1.3.6
-- sloučení kanálů ČT:D a ČT Art
+- slouÄŤenĂ­ kanĂˇlĹŻ ÄŚT:D a ÄŚT Art
 
 v1.3.5
-- odstranění diakritiky v channel id
+- odstranÄ›nĂ­ diakritiky v channel id
 
 v1.3.3
-- Možnost vypnout upozornění při automatické aktualizaci
+- MoĹľnost vypnout upozornÄ›nĂ­ pĹ™i automatickĂ© aktualizaci
 
 v1.3.2
-- Drobné opravy
+- DrobnĂ© opravy
 
 v1.3.1
-- Drobné opravy
+- DrobnĂ© opravy
 
 v1.3.0
-- Přidán kanál BBC Earth
+- PĹ™idĂˇn kanĂˇl BBC Earth
 
 v1.2.1
-- Možnost vložit loga kanálů (volitelně)
+- MoĹľnost vloĹľit loga kanĂˇlĹŻ (volitelnÄ›)
 
 v1.2.0
-- Možnost přidat vlastní kanály
+- MoĹľnost pĹ™idat vlastnĂ­ kanĂˇly
 
 v1.1.0
-- Opraveno řazení programů
-- Přidáno spuštění po startu a automatická aktualizace v zadaný čas
+- Opraveno Ĺ™azenĂ­ programĹŻ
+- PĹ™idĂˇno spuĹˇtÄ›nĂ­ po startu a automatickĂˇ aktualizace v zadanĂ˝ ÄŤas
 
 v1.0.0
-- První vydání
+- PrvnĂ­ vydĂˇnĂ­
         </news>
     </extension>
 </addon>
@@ -529,8 +529,8 @@ v5.2.14 (2017-01-23)
 	<extension point="xbmc.addon.metadata">
 		<summary>Titulky.com</summary>
 		<description lang="en_GB">Search and download subtitles from titulky.com (Czech/Slovak only)</description>
-		<description lang="cs_CZ">Vyhledávání a stahování titulků z titulky.com</description>
-		<description lang="sk_SK">Vyhľadávanie a sťahovanie titulkov z titulky.com</description>
+		<description lang="cs_CZ">VyhledĂˇvĂˇnĂ­ a stahovĂˇnĂ­ titulkĹŻ z titulky.com</description>
+		<description lang="sk_SK">VyhÄľadĂˇvanie a sĹĄahovanie titulkov z titulky.com</description>
 		<source>https://github.com/beam-kodi-addons-repository/service.subtitles.titulky.com</source>
 		<email>ondra@bimovi.cz</email>
 	</extension>

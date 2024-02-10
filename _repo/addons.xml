@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="metadata.csfd.cz.python"
-       name="ČSFD.cz python"
-       version="1.5.28"
+       name="ÄŚSFD.cz python"
+       version="1.5.29"
        provider-name="JimmyS">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -11,8 +11,8 @@
   <extension point="xbmc.metadata.scraper.movies"
              library="python/scraper.py"/>
   <extension point="xbmc.addon.metadata">
-	<summary lang="cs_CZ">Stahovač informací k filmům z ČSFD</summary>
-	<description lang="cs">Stahuje informace o filmech z ČSFD.cz (kombinovaně s tmdb.org).</description>
+	<summary lang="cs_CZ">StahovaÄŤ informacĂ­ k filmĹŻm z ÄŚSFD</summary>
+	<description lang="cs">Stahuje informace o filmech z ÄŚSFD.cz (kombinovanÄ› s tmdb.org).</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <platform>all</platform>
     <license>GPL-2.0-or-later</license>
@@ -80,7 +80,7 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 	</extension>
 </addon>
 
-<addon id="plugin.video.aktualne.cz" name="Aktuálně.cz" version="2.2.10" provider-name="wombat">
+<addon id="plugin.video.aktualne.cz" name="AktuĂˇlnÄ›.cz" version="2.2.10" provider-name="wombat">
     <requires>
         <import addon="xbmc.python" version="2.26.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -93,16 +93,16 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en_GB">Aktuálně.cz</summary>
-        <summary lang="cs_CZ">Aktuálně.cz</summary>
-        <description lang="en_GB">Aktuálně.cz - kompletní zpravodajství, zprávy z domova i ze světa</description>
-        <description lang="cs_CZ">Aktuálně.cz - kompletní zpravodajství, zprávy z domova i ze světa</description>
+        <summary lang="en_GB">AktuĂˇlnÄ›.cz</summary>
+        <summary lang="cs_CZ">AktuĂˇlnÄ›.cz</summary>
+        <description lang="en_GB">AktuĂˇlnÄ›.cz - kompletnĂ­ zpravodajstvĂ­, zprĂˇvy z domova i ze svÄ›ta</description>
+        <description lang="cs_CZ">AktuĂˇlnÄ›.cz - kompletnĂ­ zpravodajstvĂ­, zprĂˇvy z domova i ze svÄ›ta</description>
         <source>https://github.com/xbmc-kodi-cz/plugin.video.aktualne.cz</source>
         <assets>
             <icon>resources/icon.png</icon>
         </assets>
-        <news>Pořad Spotlight
-    Oprava stránkování
+        <news>PoĹ™ad Spotlight
+    Oprava strĂˇnkovĂˇnĂ­
         </news>
     </extension>
 </addon>
@@ -163,12 +163,12 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
     <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Nova Plus - online televize TV Nova</summary>
     <summary lang="cs_CZ">Nova Plus - online televize TV Nova</summary>
-    <description lang="en_GB">Vaše oblíbené seriály, pořady a živé vysílání TV Nova na online televizi Nova Plus, které si pustíte, kdy chcete vy.</description>
-    <description lang="cs_CZ">Vaše oblíbené seriály, pořady a živé vysílání TV Nova na online televizi Nova Plus, které si pustíte, kdy chcete vy.</description>
+    <description lang="en_GB">VaĹˇe oblĂ­benĂ© seriĂˇly, poĹ™ady a ĹľivĂ© vysĂ­lĂˇnĂ­ TV Nova na online televizi Nova Plus, kterĂ© si pustĂ­te, kdy chcete vy.</description>
+    <description lang="cs_CZ">VaĹˇe oblĂ­benĂ© seriĂˇly, poĹ™ady a ĹľivĂ© vysĂ­lĂˇnĂ­ TV Nova na online televizi Nova Plus, kterĂ© si pustĂ­te, kdy chcete vy.</description>
     <platform>all</platform>
     <source>https://github.com/xbmc-kodi-cz/plugin.video.novaplus.cz</source>
     <news>
-- Změna závislostí
+- ZmÄ›na zĂˇvislostĂ­
     </news>
     <assets>
         <icon>resources/icon.png</icon>
@@ -307,12 +307,13 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 	<extension point="xbmc.addon.metadata">
 		<summary>Kodi Saros Addons</summary>
 		<description>Kodi Saros Addons</description>
+
 		<platform>all</platform>
 	</extension>
 </addon>
 
 <addon id="repository.xbmc-kodi.cz"
-        name="XBMC-Kodi CZ/SK repozitář"
+        name="XBMC-Kodi CZ/SK repozitĂˇĹ™"
         version="1.1.2"
         provider-name="XBMC-Kodi.cz">
     <extension point="xbmc.addon.repository">
@@ -322,8 +323,8 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
         <hashes>sha256</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
-        <description>Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
+        <summary>ÄŚesko-slovenskĂˇ komunita fanouĹˇkĹŻ XBMC/Kodi</summary>
+        <description>RepozitĂˇĹ™ pro ÄŤesko-slovenskou komunitu fanouĹˇkĹŻ XBMC/Kodi</description>
         <platform>all</platform>
     </extension>
 </addon>
@@ -331,7 +332,7 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
 <addon id="script.365.epg.generator"
        name="365 EPG Generator"
        version="1.5.57"
-       provider-name="Sároš">
+       provider-name="SĂˇroĹˇ">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
@@ -346,93 +347,93 @@ change so that old TVDB XML scraper episodeguide URL will work to get new episod
             <icon>icon.png</icon>
         </assets>
         <news>v1.5.4 (13.03.2021)
-- loga kanálů: oprava url adresy
+- loga kanĂˇlĹŻ: oprava url adresy
 
 v1.5.3 (10.12.2020)
-- fix dialogu průběhu generování
+- fix dialogu prĹŻbÄ›hu generovĂˇnĂ­
 
 v1.5.2 (10.12.2020)
-- možnost zobrazit průběh generování
-- seznam tvg-id kanálu (nastavení - pokročilé)
+- moĹľnost zobrazit prĹŻbÄ›h generovĂˇnĂ­
+- seznam tvg-id kanĂˇlu (nastavenĂ­ - pokroÄŤilĂ©)
 
 v1.5.1
-- opraveno parsování
+- opraveno parsovĂˇnĂ­
 
 v1.5.0
-- opraveno parsování kanálu BBC Earth
+- opraveno parsovĂˇnĂ­ kanĂˇlu BBC Earth
 
 v1.4.10
 - optimalizace
 
 v1.4.9
-- možnost nastavit časový posun EPG
+- moĹľnost nastavit ÄŤasovĂ˝ posun EPG
 
 v1.4.8
-- EPG na 7 dní zpětně
+- EPG na 7 dnĂ­ zpÄ›tnÄ›
 
 v1.4.7
-- EPG na 15 dní dopředu
+- EPG na 15 dnĂ­ dopĹ™edu
 
 v1.4.6
-- volba spuštění kanálu (TV/radio) po restartu PVR klienta
+- volba spuĹˇtÄ›nĂ­ kanĂˇlu (TV/radio) po restartu PVR klienta
 
 v1.4.5
 - oprava chyb
 
 v1.4.4
-- vyřešen problém s ukončením Kodi
+- vyĹ™eĹˇen problĂ©m s ukonÄŤenĂ­m Kodi
 - oprava chyb
 
 v1.4.3
-- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelně)
+- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelnÄ›)
 
 v1.4.2
 - oprava chyb
 
 v1.4.1
-- přidán TV program pro rádia
+- pĹ™idĂˇn TV program pro rĂˇdia
 
 v1.4.0
-- diakritika v tvg-id (volitelně)
-- vlastní názvy kanálů v EPG
+- diakritika v tvg-id (volitelnÄ›)
+- vlastnĂ­ nĂˇzvy kanĂˇlĹŻ v EPG
 - optimalizace
 
 v1.3.8
 - optimalizace, oprava chyb
 
 v1.3.7
-- možnost uložení souboru na síťové úložiště
+- moĹľnost uloĹľenĂ­ souboru na sĂ­ĹĄovĂ© ĂşloĹľiĹˇtÄ›
 
 v1.3.6
-- sloučení kanálů ČT:D a ČT Art
+- slouÄŤenĂ­ kanĂˇlĹŻ ÄŚT:D a ÄŚT Art
 
 v1.3.5
-- odstranění diakritiky v channel id
+- odstranÄ›nĂ­ diakritiky v channel id
 
 v1.3.3
-- Možnost vypnout upozornění při automatické aktualizaci
+- MoĹľnost vypnout upozornÄ›nĂ­ pĹ™i automatickĂ© aktualizaci
 
 v1.3.2
-- Drobné opravy
+- DrobnĂ© opravy
 
 v1.3.1
-- Drobné opravy
+- DrobnĂ© opravy
 
 v1.3.0
-- Přidán kanál BBC Earth
+- PĹ™idĂˇn kanĂˇl BBC Earth
 
 v1.2.1
-- Možnost vložit loga kanálů (volitelně)
+- MoĹľnost vloĹľit loga kanĂˇlĹŻ (volitelnÄ›)
 
 v1.2.0
-- Možnost přidat vlastní kanály
+- MoĹľnost pĹ™idat vlastnĂ­ kanĂˇly
 
 v1.1.0
-- Opraveno řazení programů
-- Přidáno spuštění po startu a automatická aktualizace v zadaný čas
+- Opraveno Ĺ™azenĂ­ programĹŻ
+- PĹ™idĂˇno spuĹˇtÄ›nĂ­ po startu a automatickĂˇ aktualizace v zadanĂ˝ ÄŤas
 
 v1.0.0
-- První vydání
+- PrvnĂ­ vydĂˇnĂ­
         </news>
     </extension>
 </addon>
@@ -473,9 +474,9 @@ v1.0.0
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<summary lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+		<description lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj prikljuÄŤaka za video dodatke koji zahtjevaju viĹˇestruke video izvore.</description>
 	</extension>
 </addon>
 
@@ -512,9 +513,9 @@ v1.0.0
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<summary lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+		<description lang="hr">Prilagodi najÄŤeĹˇÄ‡e URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj prikljuÄŤaka za video dodatke koji zahtjevaju viĹˇestruke video izvore.</description>
 		<forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
 	</extension>
@@ -522,7 +523,7 @@ v1.0.0
 
 <addon id="service.subtitles.opensubtitles-com"
        name="OpenSubtitles.com"
-       version="1.0.15"
+       version="1.0.16"
        provider-name="amet, opensubtitles, juokelis, opensubtitlesdev, JimmyS">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
@@ -675,8 +676,8 @@ v5.2.14 (2017-01-23)
 	<extension point="xbmc.addon.metadata">
 		<summary>Titulky.com</summary>
 		<description lang="en">Search and download subtitles from titulky.com (Czech/Slovak only)</description>
-		<description lang="cs">Vyhledávání a stahování titulků z titulky.com</description>
-		<description lang="sk">Vyhľadávanie a sťahovanie titulkov z titulky.com</description>
+		<description lang="cs">VyhledĂˇvĂˇnĂ­ a stahovĂˇnĂ­ titulkĹŻ z titulky.com</description>
+		<description lang="sk">VyhÄľadĂˇvanie a sĹĄahovanie titulkov z titulky.com</description>
 		<source>https://github.com/beam-kodi-addons-repository/service.subtitles.titulky.com</source>
 		<email>ondra@bimovi.cz</email>
 	</extension>
