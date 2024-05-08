@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="metadata.csfd.cz.python"
-       name="ÄŚSFD.cz python"
+       name="ČSFD.cz python"
        version="1.5.29"
        provider-name="JimmyS">
   <requires>
@@ -11,8 +11,8 @@
   <extension point="xbmc.metadata.scraper.movies"
              library="python/scraper.py"/>
   <extension point="xbmc.addon.metadata">
-	<summary lang="cs_CZ">StahovaÄŤ informacĂ­ k filmĹŻm z ÄŚSFD</summary>
-	<description lang="cs">Stahuje informace o filmech z ÄŚSFD.cz (kombinovanÄ› s tmdb.org).</description>
+	<summary lang="cs_CZ">Stahovač informací k filmům z ČSFD</summary>
+	<description lang="cs">Stahuje informace o filmech z ČSFD.cz (kombinovaně s tmdb.org).</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <platform>all</platform>
     <license>GPL-2.0-or-later</license>
@@ -100,10 +100,10 @@
         Plugin to play Mall.TV
     </description>
     <description lang="cs">
-        Plugin pro pĹ™ehrĂˇvĂˇnĂ­ Mall.TV
+        Plugin pro přehrávání Mall.TV
     </description>
     <description lang="sk">
-        Plugin na prehrĂˇvanie Mall.TV
+        Plugin na prehrávanie Mall.TV
     </description>
     <source>https://github.com/koudi/plugin.video.mall.tv</source>
 	<assets>
@@ -176,7 +176,7 @@
   </extension>
 </addon>
 
-<addon id="repository.xbmc-kodi.cz" name="XBMC-Kodi CZ/SK repozitĂˇĹ™" version="1.3.0" provider-name="XBMC-Kodi.cz">
+<addon id="repository.xbmc-kodi.cz" name="XBMC-Kodi CZ/SK repozitář" version="1.3.0" provider-name="XBMC-Kodi.cz">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -190,8 +190,8 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="cs_CZ">ÄŚesko-slovenskĂˇ komunita fanouĹˇkĹŻ XBMC/Kodi</summary>
-        <description lang="cs_CZ">RepozitĂˇĹ™ pro ÄŤesko-slovenskou komunitu fanouĹˇkĹŻ XBMC/Kodi</description>
+        <summary lang="cs_CZ">Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
+        <description lang="cs_CZ">Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -201,8 +201,8 @@
 
 <addon id="script.365.epg.generator"
        name="365 EPG Generator"
-       version="2.0.2"
-       provider-name="SĂˇroĹˇ">
+       version="2.0.3"
+       provider-name="Sároš">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
@@ -216,96 +216,96 @@
             <icon>icon.png</icon>
         </assets>
         <news>v2.0.0 (19.02.2021)
-- novÄ› pouĹľito api TM TV Go pro kanĂˇly BBC Earth, Digi Sport 6 - 9
-- nastavenĂ­ vlastnĂ­ch kanĂˇlĹŻ rozdÄ›leno do kategoriĂ­
-- editor vlastnĂ­ch nĂˇzvĹŻ kanĂˇlĹŻ v EPG
-- optimalizace kĂłdu
+- nově použito api TM TV Go pro kanály BBC Earth, Digi Sport 6 - 9
+- nastavení vlastních kanálů rozděleno do kategorií
+- editor vlastních názvů kanálů v EPG
+- optimalizace kódu
 
 v1.5.3 (10.12.2020)
-- fix dialogu prĹŻbÄ›hu generovĂˇnĂ­
+- fix dialogu průběhu generování
 
 v1.5.2 (10.12.2020)
-- moĹľnost zobrazit prĹŻbÄ›h generovĂˇnĂ­
-- seznam tvg-id kanĂˇlu (nastavenĂ­ - pokroÄŤilĂ©)
+- možnost zobrazit průběh generování
+- seznam tvg-id kanálu (nastavení - pokročilé)
 
 v1.5.1
-- opraveno parsovĂˇnĂ­
+- opraveno parsování
 
 v1.5.0
-- opraveno parsovĂˇnĂ­ kanĂˇlu BBC Earth
+- opraveno parsování kanálu BBC Earth
 
 v1.4.10
 - optimalizace
 
 v1.4.9
-- moĹľnost nastavit ÄŤasovĂ˝ posun EPG
+- možnost nastavit časový posun EPG
 
 v1.4.8
-- EPG na 7 dnĂ­ zpÄ›tnÄ›
+- EPG na 7 dní zpětně
 
 v1.4.7
-- EPG na 15 dnĂ­ dopĹ™edu
+- EPG na 15 dní dopředu
 
 v1.4.6
-- volba spuĹˇtÄ›nĂ­ kanĂˇlu (TV/radio) po restartu PVR klienta
+- volba spuštění kanálu (TV/radio) po restartu PVR klienta
 
 v1.4.5
 - oprava chyb
 
 v1.4.4
-- vyĹ™eĹˇen problĂ©m s ukonÄŤenĂ­m Kodi
+- vyřešen problém s ukončením Kodi
 - oprava chyb
 
 v1.4.3
-- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelnÄ›)
+- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelně)
 
 v1.4.2
 - oprava chyb
 
 v1.4.1
-- pĹ™idĂˇn TV program pro rĂˇdia
+- přidán TV program pro rádia
 
 v1.4.0
-- diakritika v tvg-id (volitelnÄ›)
-- vlastnĂ­ nĂˇzvy kanĂˇlĹŻ v EPG
+- diakritika v tvg-id (volitelně)
+- vlastní názvy kanálů v EPG
 - optimalizace
 
 v1.3.8
 - optimalizace, oprava chyb
 
 v1.3.7
-- moĹľnost uloĹľenĂ­ souboru na sĂ­ĹĄovĂ© ĂşloĹľiĹˇtÄ›
+- možnost uložení souboru na síťové úložiště
 
 v1.3.6
-- slouÄŤenĂ­ kanĂˇlĹŻ ÄŚT:D a ÄŚT Art
+- sloučení kanálů ČT:D a ČT Art
 
 v1.3.5
-- odstranÄ›nĂ­ diakritiky v channel id
+- odstranění diakritiky v channel id
 
 v1.3.3
-- MoĹľnost vypnout upozornÄ›nĂ­ pĹ™i automatickĂ© aktualizaci
+- Možnost vypnout upozornění při automatické aktualizaci
 
 v1.3.2
-- DrobnĂ© opravy
+- Drobné opravy
 
 v1.3.1
-- DrobnĂ© opravy
+- Drobné opravy
 
 v1.3.0
-- PĹ™idĂˇn kanĂˇl BBC Earth
+- Přidán kanál BBC Earth
 
 v1.2.1
-- MoĹľnost vloĹľit loga kanĂˇlĹŻ (volitelnÄ›)
+- Možnost vložit loga kanálů (volitelně)
 
 v1.2.0
-- MoĹľnost pĹ™idat vlastnĂ­ kanĂˇly
+- Možnost přidat vlastní kanály
 
 v1.1.0
-- Opraveno Ĺ™azenĂ­ programĹŻ
-- PĹ™idĂˇno spuĹˇtÄ›nĂ­ po startu a automatickĂˇ aktualizace v zadanĂ˝ ÄŤas
+- Opraveno řazení programů
+- Přidáno spuštění po startu a automatická aktualizace v zadaný čas
 
 v1.0.0
-- PrvnĂ­ vydĂˇnĂ­
+- První vydání
         </news>
     </extension>
 </addon>
@@ -372,7 +372,7 @@ v1.0.0
 
 <addon id="service.subtitles.opensubtitles-com"
        name="OpenSubtitles.com"
-       version="1.1.10"
+       version="1.1.11"
        provider-name="amet, opensubtitles, juokelis, opensubtitlesdev">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -522,8 +522,8 @@ v5.2.14 (2017-01-23)
 	<extension point="xbmc.addon.metadata">
 		<summary>Titulky.com</summary>
 		<description lang="en_GB">Search and download subtitles from titulky.com (Czech/Slovak only)</description>
-		<description lang="cs_CZ">VyhledĂˇvĂˇnĂ­ a stahovĂˇnĂ­ titulkĹŻ z titulky.com</description>
-		<description lang="sk_SK">VyhÄľadĂˇvanie a sĹĄahovanie titulkov z titulky.com</description>
+		<description lang="cs_CZ">Vyhledávání a stahování titulků z titulky.com</description>
+		<description lang="sk_SK">Vyhľadávanie a sťahovanie titulkov z titulky.com</description>
 		<source>https://github.com/beam-kodi-addons-repository/service.subtitles.titulky.com</source>
 		<email>ondra@bimovi.cz</email>
 	</extension>

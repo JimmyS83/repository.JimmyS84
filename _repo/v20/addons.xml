@@ -44,7 +44,7 @@
     </extension>
 </addon>
 
-<addon id="repository.xbmc-kodi.cz" name="XBMC-Kodi CZ/SK repozitĂˇĹ™" version="1.3.0" provider-name="XBMC-Kodi.cz">
+<addon id="repository.xbmc-kodi.cz" name="XBMC-Kodi CZ/SK repozitář" version="1.3.0" provider-name="XBMC-Kodi.cz">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -58,8 +58,8 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="cs_CZ">ÄŚesko-slovenskĂˇ komunita fanouĹˇkĹŻ XBMC/Kodi</summary>
-        <description lang="cs_CZ">RepozitĂˇĹ™ pro ÄŤesko-slovenskou komunitu fanouĹˇkĹŻ XBMC/Kodi</description>
+        <summary lang="cs_CZ">Česko-slovenská komunita fanoušků XBMC/Kodi</summary>
+        <description lang="cs_CZ">Repozitář pro česko-slovenskou komunitu fanoušků XBMC/Kodi</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
