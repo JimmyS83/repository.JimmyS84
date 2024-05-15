@@ -52,6 +52,33 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.televizeseznam.cz" name="Stream" version="1.2.8~beta" provider-name="wombat">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="script.module.routing" version="0.2.3" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Stream</summary>
+        <summary lang="cs_CZ">Stream</summary>
+        <summary lang="sk_SK">Stream</summary>
+        <description lang="cs_CZ">Videoportál Stream plný stovek originálních pořadů, seriálů a filmů dostupných online i offline.</description>
+        <description lang="en_GB">Videoportál Stream plný stovek originálních pořadů, seriálů a filmů dostupných online i offline.</description>
+        <description lang="sk_SK">Videoportál Stream plný stovek originálních pořadů, seriálů a filmů dostupných online i offline.</description>
+        <source>https://github.com/wombat01/plugin.video.televizeseznam.cz</source>
+        <assets>
+            <icon>resources/icon-white.png</icon>
+        </assets>
+        <news>
+        Oprava zobrazení miniatur
+        </news>
+    </extension>
+</addon>
+
     <addon id="repository.JimmyS84v19" name="JimmyS84 repository v19" version="1.0.1" provider-name="JimmyS84">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
