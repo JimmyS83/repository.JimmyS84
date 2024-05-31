@@ -52,6 +52,48 @@
 	</extension>
 </addon>
 
+﻿<addon id="plugin.video.primaplus" name="Prima+" provider-name="waladir" version="1.2.4">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.18.4"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.0"/>
+  </requires>
+  <extension library="main.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Prima+</summary>
+    <description lang="cs_CZ">
+Doplněk pro Prima+
+Pro fungování doplňku je potřeba mít registraci s minimálně Free tarifem na www.iprima.cz.
+Další informace a podporu najdete na fóru www.xbmc-kodi.cz (https://www.xbmc-kodi.cz/prispevek-prima)
+    </description>
+    <platform>all</platform>
+    <news>
+v1.2.4 (1.5.2024)
+- úprava parametru pro ISA v Kodi Leia (od roomie)
+
+v1.2.3 (16.1.2024)
+- oprava chyby při spuštění doplňku
+
+v1.2.2 (12.1.2024)
+- přidána správa zařízení
+
+v1.2.1 (11.1.2024)
+- registrace zařízení
+- možnost resetu zařízení
+- úprava kešovaní seznamů
+
+v1.2.0 (8.1.2024)
+- přehrávání streamů s DRM
+- možnost zapnout logování
+    </news>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.televizeseznam.cz" name="Stream" version="1.2.8~beta" provider-name="wombat">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />

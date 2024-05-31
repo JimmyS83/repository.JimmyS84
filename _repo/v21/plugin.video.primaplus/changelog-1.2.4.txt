@@ -1,0 +1,17 @@
+v1.2.4 (1.5.2024)
+- úprava parametru pro ISA v Kodi Leia (od roomie)
+
+v1.2.3 (16.1.2024)
+- oprava chyby při spuštění doplňku
+
+v1.2.2 (12.1.2024)
+- přidána správa zařízení
+
+v1.2.1 (11.1.2024)
+- registrace zařízení
+- možnost resetu zařízení
+- úprava kešovaní seznamů
+
+v1.2.0 (8.1.2024)
+- přehrávání streamů s DRM
+- možnost zapnout logování
