@@ -2,7 +2,7 @@
 <addons>
 <addon id="metadata.csfd.cz.python"
        name="ČSFD.cz python"
-       version="1.5.29"
+       version="1.5.31"
        provider-name="JimmyS">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>

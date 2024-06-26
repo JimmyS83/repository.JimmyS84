@@ -2,7 +2,7 @@
 <addons>
 <addon id="metadata.csfd.cz.python"
        name="ČSFD.cz python"
-       version="1.5.30"
+       version="1.5.31"
        provider-name="JimmyS">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -203,7 +203,7 @@ v1.2.0 (8.1.2024)
 	</extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.1.0" provider-name="Martijn, phil65">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.1.1" provider-name="Martijn, phil65">
     <requires>
         <import addon="xbmc.addon" version="19.1.0"/>
         <import addon="xbmc.json" version="11.2.0"/>
