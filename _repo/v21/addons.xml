@@ -380,7 +380,7 @@ Keep it legal and carry on
   </extension>
 </addon>
 
-<addon id="skin.confluence2" version="6.0.3" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
+<addon id="skin.confluence2" version="6.0.4" name="Confluence (edit)" provider-name="Jezz_X, Team Kodi, JimmyS">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
@@ -519,7 +519,7 @@ Keep it legal and carry on
 	</extension>
 </addon>
 
-<addon id="skin.confluence2sw" version="6.0.3" name="Confluence (edit-sw)" provider-name="Jezz_X, Team Kodi, JimmyS">
+<addon id="skin.confluence2sw" version="6.0.4" name="Confluence (edit-sw)" provider-name="Jezz_X, Team Kodi, JimmyS">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 		<import addon="service.skin.widgets" version="0.1.0"/>
